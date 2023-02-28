@@ -22,7 +22,7 @@ tl.fromTo(
 tl.fromTo(
   "#crumbs",
   { y: 0, rotation: "0deg" },
-  { y: -20, rotation: "-20deg", yoyo: true, repeat: 2 },
+  { y: -20, rotation: "-20deg", yoyo: true, repeat: -1 },
   "<"
 );
 // fading the cookie out
