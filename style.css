@@ -19,20 +19,21 @@
   font-family: "Poppins", sans-serif;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
 }
 .text {
-  width: 70%;
+  width: 80%;
 }
 .cookie {
   transform: scale(0.6);
 }
 .cookie-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: lighter;
 }
 .cookie-subtitle {
   font-weight: bold;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   padding: 0.5rem 0rem;
 }
 button {
@@ -40,7 +41,8 @@ button {
   padding: 0.5rem 1rem;
   color: #4f2626;
   font-family: "Poppins", sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-weight: bold;
   border-radius: 0.3rem;
+  cursor: pointer;
 }
